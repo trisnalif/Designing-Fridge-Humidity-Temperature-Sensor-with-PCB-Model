@@ -1,0 +1,15 @@
+Reference	Qty	Value	DNP	Exclude from BOM	Exclude from Board	Exclude from Simulation	Exclude from Position Files	Footprint	Datasheet
+AE1	1	Antenna					${EXCLUDE_FROM_POS_FILES}	Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal	
+BT1	1	9V					${EXCLUDE_FROM_POS_FILES}	Battery:BatteryHolder_MPD_BA9VPC_1xPP3	
+C1	1	470u					${EXCLUDE_FROM_POS_FILES}	Capacitor_THT:CP_Radial_D10.0mm_P5.00mm	
+C2	1	10u					${EXCLUDE_FROM_POS_FILES}	Capacitor_THT:CP_Radial_D5.0mm_P2.50mm	
+C3,C4	2	100n					${EXCLUDE_FROM_POS_FILES}	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	
+C5,C6	2	22p					${EXCLUDE_FROM_POS_FILES}	Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P7.50mm	
+J1	1	RF RX					${EXCLUDE_FROM_POS_FILES}	Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical	
+R1	1	10k					${EXCLUDE_FROM_POS_FILES}	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	
+RV1	1	10k					${EXCLUDE_FROM_POS_FILES}	Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical	
+SW1	1	SW_SPST					${EXCLUDE_FROM_POS_FILES}	Button_Switch_SMD:SW_SPST_B3U-1000P-B	
+U1	1	ATmega328-P					${EXCLUDE_FROM_POS_FILES}	Package_DIP:DIP-28_W7.62mm	http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf
+U2	1	LCD-016N002L					${EXCLUDE_FROM_POS_FILES}	Display:LCD-016N002L	http://www.vishay.com/docs/37299/37299.pdf
+U3	1	L7805					${EXCLUDE_FROM_POS_FILES}	L7805CV:TO255P1040X460X1968-3	http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+Y1	1	16MHZ					${EXCLUDE_FROM_POS_FILES}	Crystal:Crystal_HC49-U_Vertical	
